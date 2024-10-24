@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Íconos e Imagen de Portada</title>
+    <!-- Enlace a la librería de íconos (ejemplo: FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        /* Estilo para el cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Estilo para el encabezado y la imagen de portada */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .portada {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        /* Estilo para los íconos */
+        .iconos {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .icono {
+            margin: 0 20px;
+            text-align: center;
+        }
+
+        .icono i {
+            font-size: 50px;
+            color: #333;
+        }
+
+        .icono p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página Web naranja</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShm_z5eVXdIBWom9JATUvwpO8InH0XUdSTcaSbAsceEF9Bi6Kx2nLsi80&s=10" alt="Imagen de portada" class="portada">
+    </header>
+
+    <section class="iconos">
+        <div class="icono">
+            <i class="fas fa-home"></i>
+            <p>Inicio</p>
+        </div>
+        <div class="icono">
+            <i class="fas fa-info-circle"></i>
+            <p>Acerca de</p>
+        </div>
+        <div class="icono">
+            <i class="fas fa-envelope"></i>
+            <p>Contacto</p>
+        </div>
+    </section>
+</body>
+</html>
